@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+logo: assets/logo.png
+title: R para Ciência de Dados 2
+show_downloads: true
+link_material: "https://github.com/curso-r/main-r4ds-2/raw/master/material_do_curso.zip"
