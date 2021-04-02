@@ -7,6 +7,8 @@
 aqui](https://github.com/curso-r/main-r4ds-2/raw/master/material_do_curso.zip)
 para baixar o material do curso.
 
+  - Ciência de Dados em R: <https://livro.curso-r.com/>
+
   - R for Data Science: <https://r4ds.had.co.nz/> (em inglês) e
     <https://es.r4ds.hadley.nz/> (em espanhol).
 
@@ -23,9 +25,10 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slide                              | link                                                                       |
-| :--------------------------------- | :------------------------------------------------------------------------- |
-| slides/01-introducao-ao-curso.html | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html> |
+| slide                                   | link                                                                            |
+| :-------------------------------------- | :------------------------------------------------------------------------------ |
+| slides/01-introducao-ao-curso.html      | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>      |
+| slides/021-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/021-organizacao-de-projetos.html> |
 
 ## Scripts utilizados em aula
 

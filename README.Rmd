@@ -22,6 +22,8 @@ num_aula <- 1
 
 [Clique aqui](https://github.com/curso-r/main-r4ds-2/raw/master/material_do_curso.zip) para baixar o material do curso.
 
+- Ciência de Dados em R: https://livro.curso-r.com/
+
 - R for Data Science: [https://r4ds.had.co.nz/](https://r4ds.had.co.nz/) (em inglês) e [https://es.r4ds.hadley.nz/](https://es.r4ds.hadley.nz/) (em espanhol).
 
 - Nosso blog: [https://curso-r.com/blog/](https://curso-r.com/blog/)
@@ -43,7 +45,7 @@ knitr::kable(
     link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
   ) %>% 
     dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
-    dplyr::slice(1)
+    dplyr::slice(1:2)
 )
 ```
 
