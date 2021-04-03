@@ -56,14 +56,15 @@ Fora do horário de aula ou monitoria:
 
 Referências extras comentadas nas aulas.
 
-| Aula | Tema | Descrição |
-| :--- | :--- | :-------- |
+| Aula | Tema   | Descrição                                                                                                                                                                           |
+| ---: | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Código | [Código utilizado para baixar os dados da série RIck and Morty utilizados na primeira aula](https://raw.githubusercontent.com/curso-r/main-r4ds-2/master/data-raw/rick_and_morty.R) |
 
 Materiais que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).
 
 | Aula | Tema | Descrição |
-| :--- | :--- | :-------- |
+| ---: | :--- | :-------- |
 
 ## Redes sociais da Curso-R
 
