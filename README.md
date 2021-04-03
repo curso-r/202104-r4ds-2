@@ -25,10 +25,10 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slide                                   | link                                                                            |
-|:----------------------------------------|:--------------------------------------------------------------------------------|
-| slides/01-introducao-ao-curso.html      | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>      |
-| slides/021-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/021-organizacao-de-projetos.html> |
+| slide                                  | link                                                                           |
+|:---------------------------------------|:-------------------------------------------------------------------------------|
+| slides/01-introducao-ao-curso.html     | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>     |
+| slides/02-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/02-organizacao-de-projetos.html> |
 
 ## Scripts utilizados em aula
 
