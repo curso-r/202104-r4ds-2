@@ -25,18 +25,18 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slide                                  | link                                                                           |
-|:---------------------------------------|:-------------------------------------------------------------------------------|
-| slides/01-introducao-ao-curso.html     | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>     |
-| slides/02-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/02-organizacao-de-projetos.html> |
+| slide                              | link                                                                       |
+|:-----------------------------------|:---------------------------------------------------------------------------|
+| slides/01-introducao-ao-curso.html | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html> |
+| slides/02-organizacao-projeto.html | <https://curso-r.github.io/main-r4ds-2/slides/02-organizacao-projeto.html> |
 
 ## Scripts utilizados em aula
 
 ### Parte teórica
 
-| script                 | link                                                                    |
-|:-----------------------|:------------------------------------------------------------------------|
-| scripts/01\_projetos.R | <https://curso-r.github.io/202104-r4ds-2/scripts/scripts/01_projetos.R> |
+| script                          | link                                                                              |
+|:--------------------------------|:----------------------------------------------------------------------------------|
+| scripts/1-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/scripts/1-organizacao-projeto.R> |
 
 ### Parte prática
 
