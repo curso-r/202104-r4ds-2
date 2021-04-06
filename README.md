@@ -34,13 +34,15 @@ Fora do horário de aula ou monitoria:
 
 ### Parte teórica
 
-| script | link |
-|:-------|:-----|
+| script                 | link                                                                    |
+|:-----------------------|:------------------------------------------------------------------------|
+| scripts/01\_projetos.R | <https://curso-r.github.io/202104-r4ds-2/scripts/scripts/01_projetos.R> |
 
 ### Parte prática
 
-| script | link |
-|:-------|:-----|
+| script            | link                                                                |
+|:------------------|:--------------------------------------------------------------------|
+| pratica/2-dplyr.R | <https://curso-r.github.io/202104-r4ds-2/pratica/pratica/2-dplyr.R> |
 
 ## Lição de casa
 
