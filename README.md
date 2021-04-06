@@ -25,10 +25,10 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| slide                                   | link                                                                            |
-| :-------------------------------------- | :------------------------------------------------------------------------------ |
-| slides/01-introducao-ao-curso.html      | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>      |
-| slides/021-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/021-organizacao-de-projetos.html> |
+| slide                                  | link                                                                           |
+| :------------------------------------- | :----------------------------------------------------------------------------- |
+| slides/01-introducao-ao-curso.html     | <https://curso-r.github.io/main-r4ds-2/slides/01-introducao-ao-curso.html>     |
+| slides/02-organizacao-de-projetos.html | <https://curso-r.github.io/main-r4ds-2/slides/02-organizacao-de-projetos.html> |
 
 ## Scripts utilizados em aula
 
@@ -39,26 +39,27 @@ Fora do horário de aula ou monitoria:
 
 ### Parte prática
 
-| script | link |
-| :----- | :--- |
+| script                    | link                                                                        |
+| :------------------------ | :-------------------------------------------------------------------------- |
+| 1-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/1-organizacao-projeto.Rmd> |
 
 ## Lição de casa
 
 | Aula | Descrição |
-| :--- | :-------- |
+| ---: | :-------- |
 
 ## Lição de casa extra 🤓
 
 | Aula | Descrição |
-| :--- | :-------- |
+| ---: | :-------- |
 
 ## Material extra
 
 Referências extras comentadas nas aulas.
 
-| Aula | Tema   | Descrição                                                                                                                                                                           |
-| ---: | :----- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Código | [Código utilizado para baixar os dados da série RIck and Morty utilizados na primeira aula](https://raw.githubusercontent.com/curso-r/main-r4ds-2/master/data-raw/rick_and_morty.R) |
+| Aula | Tema         | Descrição                                                                                                                                                                           |
+| ---: | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Código extra | [Código utilizado para baixar os dados da série RIck and Morty utilizados na primeira aula](https://raw.githubusercontent.com/curso-r/main-r4ds-2/master/data-raw/rick_and_morty.R) |
 
 Materiais que comentamos quando tiramos dúvidas (não necessariamente são
 relacionadas com o conteúdo da aula).

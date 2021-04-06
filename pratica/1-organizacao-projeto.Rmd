@@ -1,0 +1,194 @@
+
+Motivação: fazer uma análise da audiência das temporadas da série Rick and Morty.
+
+Passo 1: criar um projeto.
+
+```{r}
+usethis::create_project("analiseRickMorty")
+```
+
+Passo 2: configurar o GIT
+
+```{r}
+usethis::use_git()
+```
+
+Passo 3: configurar o GitHub
+
+```{r}
+usethis::use_github()
+```
+
+Passo 4: pegar os dados e organizar as pastas data-raw e data
+
+Os dados foram retirados da [Wikepedia](https://en.wikipedia.org/wiki/List_of_Rick_and_Morty_episodes).
+
+O código utilozado pode ser encontrado [aqui](https://raw.githubusercontent.com/curso-r/main-r4ds-2/master/data-raw/rick_and_morty.R)
+
+Para saber mais sobre Web Scraping, vejam a nossa trilha de Web Scraping: https://curso-r.com/trilhas/ws/
+
+Passo 5: Fazer o gráfico da audiência por episódio
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+rick_and_morty <- readr::read_rds("../data/rick_and_morty.rds")
+
+rick_and_morty %>%
+  mutate(num_temporada = as.factor(num_temporada)) %>%
+  ggplot(aes(
+    x = num_episodio,
+    y = qtd_espectadores_EUA,
+    fill = num_temporada)
+  ) +
+  geom_col() +
+  labs(
+    x = "episodio",
+    y = "audiencia",
+    fill = "temporada",
+    title = "Rick and Morty"
+  ) +
+  theme(
+    text = element_text(
+      colour = "#11a2c6",
+      family = "Get Schwifty",
+      size = 16
+    ),
+    plot.title = element_text(
+      family = "Get Schwifty",
+      hjust = 0.5,
+      size = 30
+    ),
+    axis.text = element_text(color = "white"),
+    axis.ticks.x = element_line(color = "white"),
+    panel.background = element_rect(fill = "black"),
+    panel.grid.major.y = element_line(size = 0.1),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    legend.position = "bottom",
+    legend.background = element_rect(fill = "black", color = "black"),
+    plot.background = element_rect(fill = "black", color = "black")
+  )
+```
+
+
+Passo 6: criar pasta docs e criar um Rmd
+
+
+Passo 7: Fazer um gráfico da audiência média por temporada
+
+
+```{r}
+rick_and_morty %>%
+  mutate(num_temporada = as.factor(num_temporada)) %>% 
+  group_by(num_temporada) %>% 
+  summarise(
+    audiencia_media = sum(qtd_espectadores_EUA)
+  ) %>% 
+  ggplot(aes(
+      x = num_temporada,
+      y = audiencia_media,
+      fill = num_temporada
+    )) +
+  geom_col(show.legend = FALSE) +
+  labs(
+    x = "episodio",
+    y = "audiencia",
+    title = "Rick and Morty"
+  ) +
+  theme(
+    text = element_text(
+      colour = "#11a2c6",
+      family = "Get Schwifty",
+      size = 16
+    ),
+    plot.title = element_text(
+      family = "Get Schwifty",
+      hjust = 0.5,
+      size = 30
+    ),
+    axis.text = element_text(color = "white"),
+    axis.ticks.x = element_line(color = "white"),
+    panel.background = element_rect(fill = "black"),
+    panel.grid.major.y = element_line(size = 0.1),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    legend.position = "bottom",
+    legend.background = element_rect(fill = "black", color = "black"),
+    plot.background = element_rect(fill = "black", color = "black")
+  )
+```
+
+Passo 8: transformar tema em função e salvar na pasta R
+
+```{r}
+tema_rick_morty <- function() {
+  theme(
+    text = element_text(
+      colour = "#11a2c6",
+      family = "Get Schwifty",
+      size = 16
+    ),
+    plot.title = element_text(
+      family = "Get Schwifty",
+      hjust = 0.5,
+      size = 30
+    ),
+    axis.text = element_text(color = "white"),
+    axis.ticks.x = element_line(color = "white"),
+    panel.background = element_rect(fill = "black"),
+    panel.grid.major.y = element_line(size = 0.1),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    legend.position = "bottom",
+    legend.background = element_rect(fill = "black", color = "black"),
+    plot.background = element_rect(fill = "black", color = "black")
+  )
+}
+```
+
+Passo 9: subistuir o `theme()` nos gráficos pela função `tema_rick_morty()`.
+
+
+```{r}
+rick_and_morty %>%
+  mutate(num_temporada = as.factor(num_temporada)) %>%
+  ggplot(aes(
+    x = num_episodio,
+    y = qtd_espectadores_EUA,
+    fill = num_temporada)
+  ) +
+  geom_col() +
+  labs(
+    x = "episodio",
+    y = "audiencia",
+    fill = "temporada",
+    title = "Rick and Morty"
+  ) +
+  tema_rick_morty()
+
+rick_and_morty %>%
+  mutate(num_temporada = as.factor(num_temporada)) %>% 
+  group_by(num_temporada) %>% 
+  summarise(
+    audiencia_media = sum(qtd_espectadores_EUA)
+  ) %>% 
+  ggplot(aes(
+      x = num_temporada,
+      y = audiencia_media,
+      fill = num_temporada
+    )) +
+  geom_col(show.legend = FALSE) +
+  labs(
+    x = "episodio",
+    y = "audiencia",
+    title = "Rick and Morty"
+  ) + 
+  tema_rick_morty()
+```
+
+Passo 10: fazendo um push para o Github
+
+- Fazer um commit nas mudanças que fizemos.
+- Fazer um push dos arquivos para o Github.
