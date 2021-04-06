@@ -40,9 +40,9 @@ Fora do horário de aula ou monitoria:
 
 ### Parte prática
 
-| script            | link                                                                |
-|:------------------|:--------------------------------------------------------------------|
-| pratica/2-dplyr.R | <https://curso-r.github.io/202104-r4ds-2/pratica/pratica/2-dplyr.R> |
+| script                            | link                                                                                |
+|:----------------------------------|:------------------------------------------------------------------------------------|
+| pratica/1-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/pratica/1-organizacao-projeto.Rmd> |
 
 ## Lição de casa
 
