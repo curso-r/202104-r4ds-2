@@ -34,15 +34,15 @@ Fora do horário de aula ou monitoria:
 
 ### Parte teórica
 
-| script                          | link                                                                      |
-| :------------------------------ | :------------------------------------------------------------------------ |
-| scripts/1-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/1-organizacao-projeto.R> |
+| script                  | link                                                                      |
+| :---------------------- | :------------------------------------------------------------------------ |
+| 1-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/1-organizacao-projeto.R> |
 
 ### Parte prática
 
-| script                            | link                                                                        |
-| :-------------------------------- | :-------------------------------------------------------------------------- |
-| pratica/1-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/1-organizacao-projeto.Rmd> |
+| script                    | link                                                                        |
+| :------------------------ | :-------------------------------------------------------------------------- |
+| 1-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/1-organizacao-projeto.Rmd> |
 
 ## Lição de casa
 

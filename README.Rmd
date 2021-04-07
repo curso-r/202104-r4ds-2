@@ -58,8 +58,8 @@ knitr::kable(
 pasta <- "scripts/"
 knitr::kable(
   tibble::tibble(
-    script = CursoRutils:::list_github_files(main_repo, pasta, "R"),
-    link = paste0("https://curso-r.github.io/", turma, "/", script)
+    script = list.files(pasta, pattern = "R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
     dplyr::slice(1)
 )
@@ -71,8 +71,8 @@ knitr::kable(
 pasta <- "pratica/"
 knitr::kable(
   tibble::tibble(
-    script = CursoRutils:::list_github_files(main_repo, pasta, "R|Rmd"),
-    link = paste0("https://curso-r.github.io/", turma, "/", script)
+    script = list.files(pasta, pattern = "Rmd$|R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
     dplyr::slice(1)
 )
