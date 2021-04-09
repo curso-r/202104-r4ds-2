@@ -31,6 +31,7 @@ Fora do horário de aula ou monitoria:
 | slides/01-organizacao-projeto.html | <https://curso-r.github.io/main-r4ds-2/slides/01-organizacao-projeto.html> |
 | slides/02-dplyr-plus.html          | <https://curso-r.github.io/main-r4ds-2/slides/02-dplyr-plus.html>          |
 | slides/03-tidyr.html               | <https://curso-r.github.io/main-r4ds-2/slides/03-tidyr.html>               |
+| slides/04-stringr.html             | <https://curso-r.github.io/main-r4ds-2/slides/04-stringr.html>             |
 
 ## Scripts utilizados em aula
 
@@ -40,6 +41,7 @@ Fora do horário de aula ou monitoria:
 |:-------------------------|:---------------------------------------------------------------------------|
 | 01-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R> |
 | 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
+| 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
 
 ### Parte prática
 
