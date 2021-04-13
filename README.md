@@ -37,17 +37,20 @@ Fora do horário de aula ou monitoria:
 
 ### Parte teórica
 
-| script                   | link                                                                       |
-| :----------------------- | :------------------------------------------------------------------------- |
-| 01-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R> |
-| 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
-| 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
+| script                      | link                                                                          |
+| :-------------------------- | :---------------------------------------------------------------------------- |
+| 01-organizacao-projeto.R    | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R>    |
+| 02-dplyr-plus.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>             |
+| 04-stringr.R                | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>                |
+| extra-exemplo-pivot-breno.R | <https://curso-r.github.io/202104-r4ds-2/scripts/extra-exemplo-pivot-breno.R> |
 
 ### Parte prática
 
 | script                     | link                                                                         |
 | :------------------------- | :--------------------------------------------------------------------------- |
 | 01-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
+| 2-dplyr-tidyr.R            | <https://curso-r.github.io/202104-r4ds-2/pratica/2-dplyr-tidyr.R>            |
+| 3-stringr-tidyr.R          | <https://curso-r.github.io/202104-r4ds-2/pratica/3-stringr-tidyr.R>          |
 
 ## Lição de casa
 
