@@ -39,12 +39,13 @@ Fora do horário de aula ou monitoria:
 
 ### Parte teórica
 
-| script                   | link                                                                       |
-|:-------------------------|:---------------------------------------------------------------------------|
-| 01-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R> |
-| 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
-| 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
-| 05-lubridate.R           | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>           |
+| script                      | link                                                                          |
+|:----------------------------|:------------------------------------------------------------------------------|
+| 01-organizacao-projeto.R    | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R>    |
+| 02-dplyr-plus.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>             |
+| 04-stringr.R                | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>                |
+| 05-lubridate.R              | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>              |
+| extra-exemplo-pivot-breno.R | <https://curso-r.github.io/202104-r4ds-2/scripts/extra-exemplo-pivot-breno.R> |
 
 ### Parte prática
 
