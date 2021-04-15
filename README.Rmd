@@ -74,7 +74,6 @@ knitr::kable(
     slide = CursoRutils:::list_github_files(main_repo, "pratica/", "(R|Rmd)$"),
     link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
   ) %>% 
-    dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
     dplyr::slice(1:5)
 )
 ```

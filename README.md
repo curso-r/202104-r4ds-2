@@ -73,6 +73,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Fazer uma tabela do lucro médio anual dos filmes de comédia, ação e romance (2000 a 2016)](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                          |
 |    2 | [Calcular o lucro médio por gênero do filme na base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                                                            |
 |    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                           |
+|    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                  |
 
 ## Material extra
 
