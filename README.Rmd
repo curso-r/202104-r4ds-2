@@ -15,7 +15,7 @@ library(magrittr)
 
 main_repo <- "main-r4ds-2"
 turma <- "202104-r4ds-2"
-num_aula <- 3
+num_aula <- 4
 ```
 
 ## Referências do curso
@@ -45,7 +45,7 @@ knitr::kable(
     link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
   ) %>% 
     dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
-    dplyr::slice(1:7)
+    dplyr::slice(1:5)
 )
 ```
 
@@ -61,20 +61,20 @@ knitr::kable(
     script = list.files(pasta, pattern = "R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:5)
+    dplyr::slice(1:4)
 )
 ```
 
 ### Parte prática
 
 ```{r}
-# Troquei esse código porque parece que os scripts e prática estão ficando no main
+pasta <- "pratica/"
 knitr::kable(
   tibble::tibble(
-    slide = CursoRutils:::list_github_files(main_repo, "pratica/", "(R|Rmd)$"),
-    link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
+    script = list.files(pasta, pattern = "Rmd$|R$"),
+    link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:5)
+    dplyr::slice(1:4)
 )
 ```
 
