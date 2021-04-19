@@ -40,25 +40,22 @@ Fora do horário de aula ou monitoria:
 
 ### Parte teórica
 
-| script                      | link                                                                          |
-|:----------------------------|:------------------------------------------------------------------------------|
-| 01-organizacao-projeto.R    | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R>    |
-| 02-dplyr-plus.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>             |
-| 04-stringr.R                | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>                |
-| 05-lubridate.R              | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>              |
-| extra-exemplo-pivot-breno.R | <https://curso-r.github.io/202104-r4ds-2/scripts/extra-exemplo-pivot-breno.R> |
+| script                   | link                                                                       |
+|:-------------------------|:---------------------------------------------------------------------------|
+| 01-organizacao-projeto.R | <https://curso-r.github.io/202104-r4ds-2/scripts/01-organizacao-projeto.R> |
+| 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
+| 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
+| 05-lubridate.R           | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>           |
 
 ### Parte prática
 
-| slide                              | link                                                                       |
-|:-----------------------------------|:---------------------------------------------------------------------------|
-| pratica/01-organizacao-projeto.Rmd | <https://curso-r.github.io/main-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
-| pratica/02-dplyr.R                 | <https://curso-r.github.io/main-r4ds-2/pratica/02-dplyr.R>                 |
-| pratica/03-tidyr.R                 | <https://curso-r.github.io/main-r4ds-2/pratica/03-tidyr.R>                 |
-| pratica/04-stringr.R               | <https://curso-r.github.io/main-r4ds-2/pratica/04-stringr.R>               |
-| pratica/05-lubridate.R             | <https://curso-r.github.io/main-r4ds-2/pratica/05-lubridate.R>             |
-| pratica/06-forcats.R               | <https://curso-r.github.io/main-r4ds-2/pratica/06-forcats.R>               |
-| pratica/07-purrr.R                 | <https://curso-r.github.io/main-r4ds-2/pratica/07-purrr.R>                 |
+| script                         | link                                                                             |
+|:-------------------------------|:---------------------------------------------------------------------------------|
+| 01-organizacao-projeto.Rmd     | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd>     |
+| 2-dplyr-tidyr.R                | <https://curso-r.github.io/202104-r4ds-2/pratica/2-dplyr-tidyr.R>                |
+| 3-stringr-tidyr.R              | <https://curso-r.github.io/202104-r4ds-2/pratica/3-stringr-tidyr.R>              |
+| 4-lubridate.R                  | <https://curso-r.github.io/202104-r4ds-2/pratica/4-lubridate.R>                  |
+| 99-exercicios-extras-stringr.R | <https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R> |
 
 ## Lição de casa
 
@@ -68,6 +65,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Exercícios de dplyr 1.0](https://livro.curso-r.com/7-2-dplyr.html#exerc%C3%ADcios-17)                                                                                                                                                                                               |
 |    2 | [Exercícios de tidyr](https://livro.curso-r.com/7-3-tidyr.html#exerc%C3%ADcios-18)                                                                                                                                                                                                   |
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                         |
+|    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                     |
 
 ## Lição de casa extra 🤓
 
@@ -78,6 +76,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Calcular o lucro médio por gênero do filme na base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                                                            |
 |    2 | [Fazer gráficos de dispersão do lucro vs todas as outras variáveis núméricas da base IMDB](https://github.com/curso-r/livro-material/raw/master/assets/data/imdb.rds)                           |
 |    3 | [Exercícios extras de stringr](https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R)                                                                                  |
+|    4 | [forcats: leitura extra](https://livro.curso-r.com/7-6-forcats.html#forcats)                                                                                                                    |
 
 ## Material extra
 
