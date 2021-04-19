@@ -34,6 +34,7 @@ Fora do horário de aula ou monitoria:
 | slides/04-stringr.html             | <https://curso-r.github.io/main-r4ds-2/slides/04-stringr.html>             |
 | slides/05-lubridate.html           | <https://curso-r.github.io/main-r4ds-2/slides/05-lubridate.html>           |
 | slides/06-forcats.html             | <https://curso-r.github.io/main-r4ds-2/slides/06-forcats.html>             |
+| slides/07-purrr.html               | <https://curso-r.github.io/main-r4ds-2/slides/07-purrr.html>               |
 
 ## Scripts utilizados em aula
 
@@ -56,6 +57,8 @@ Fora do horário de aula ou monitoria:
 | pratica/03-tidyr.R                 | <https://curso-r.github.io/main-r4ds-2/pratica/03-tidyr.R>                 |
 | pratica/04-stringr.R               | <https://curso-r.github.io/main-r4ds-2/pratica/04-stringr.R>               |
 | pratica/05-lubridate.R             | <https://curso-r.github.io/main-r4ds-2/pratica/05-lubridate.R>             |
+| pratica/06-forcats.R               | <https://curso-r.github.io/main-r4ds-2/pratica/06-forcats.R>               |
+| pratica/07-purrr.R                 | <https://curso-r.github.io/main-r4ds-2/pratica/07-purrr.R>                 |
 
 ## Lição de casa
 
