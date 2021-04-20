@@ -1,0 +1,27 @@
+---
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(purrr)
+library(ggplot2)
+library(tidyr)
+
+imdb <- readr::read_rds("../data/imdb.rds")
+
+fazer_grafico_receita_orcamento <- function(tab) {
+  tab %>% 
+    ggplot(aes(x = orcamento, y = receita)) +
+    geom_point()
+}
+
+imdb_graficos <- imdb %>% 
+  filter(!is.na(ano)) %>% 
+  group_by(ano) %>% 
+  tidyr::nest() %>% 
+  mutate(grafico = map(data, fazer_grafico_receita_orcamento))
+
+walk(imdb_graficos$grafico, print)
+```
+

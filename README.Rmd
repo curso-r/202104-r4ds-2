@@ -15,7 +15,7 @@ library(magrittr)
 
 main_repo <- "main-r4ds-2"
 turma <- "202104-r4ds-2"
-num_aula <- 4
+num_aula <- 5
 ```
 
 ## Referências do curso
@@ -74,7 +74,7 @@ knitr::kable(
     script = list.files(pasta, pattern = "Rmd$|R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:4)
+    dplyr::slice(1:6)
 )
 ```
 
@@ -132,3 +132,5 @@ Instagram: https://www.youtube.com/c/CursoR6/featured
 Linkedin: https://www.linkedin.com/company/curso-r/
 
 Facebook: https://www.facebook.com/cursodeR
+
+
