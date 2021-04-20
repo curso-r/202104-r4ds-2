@@ -46,6 +46,7 @@ Fora do horário de aula ou monitoria:
 | 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
 | 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
 | 05-lubridate.R           | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>           |
+| 07-purrr.R               | <https://curso-r.github.io/202104-r4ds-2/scripts/07-purrr.R>               |
 
 ### Parte prática
 
