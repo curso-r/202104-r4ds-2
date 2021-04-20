@@ -68,6 +68,7 @@ Fora do horário de aula ou monitoria:
 |    2 | [Exercícios de tidyr](https://livro.curso-r.com/7-3-tidyr.html#exerc%C3%ADcios-18)                                                                                                                                                                                                   |
 |    3 | [Exercícios stringr](https://livro.curso-r.com/7-4-o-pacote-stringr.html#exerc%C3%ADcios-19)                                                                                                                                                                                         |
 |    4 | [Exercícios lubridate](https://livro.curso-r.com/7-5-o-pacote-lubridate.html#exerc%C3%ADcios-20)                                                                                                                                                                                     |
+|    4 | [Exercícios forcats](https://livro.curso-r.com/7-6-forcats.html#exerc%C3%ADcios-21)                                                                                                                                                                                                  |
 |    5 | [Exercícios de purrr](https://livro.curso-r.com/10-5-exerc%C3%ADcios-22.html)                                                                                                                                                                                                        |
 
 ## Lição de casa extra 🤓
