@@ -32,6 +32,9 @@ Fora do horário de aula ou monitoria:
 | slides/02-dplyr-plus.html          | <https://curso-r.github.io/main-r4ds-2/slides/02-dplyr-plus.html>          |
 | slides/03-tidyr.html               | <https://curso-r.github.io/main-r4ds-2/slides/03-tidyr.html>               |
 | slides/04-stringr.html             | <https://curso-r.github.io/main-r4ds-2/slides/04-stringr.html>             |
+| slides/05-lubridate.html           | <https://curso-r.github.io/main-r4ds-2/slides/05-lubridate.html>           |
+| slides/06-forcats.html             | <https://curso-r.github.io/main-r4ds-2/slides/06-forcats.html>             |
+| slides/07-purrr.html               | <https://curso-r.github.io/main-r4ds-2/slides/07-purrr.html>               |
 
 ## Scripts utilizados em aula
 
@@ -43,9 +46,11 @@ Fora do horário de aula ou monitoria:
 | 02-dplyr-plus.R          | <https://curso-r.github.io/202104-r4ds-2/scripts/02-dplyr-plus.R>          |
 | 04-stringr.R             | <https://curso-r.github.io/202104-r4ds-2/scripts/04-stringr.R>             |
 | 05-lubridate.R           | <https://curso-r.github.io/202104-r4ds-2/scripts/05-lubridate.R>           |
+| 07-purrr.R               | <https://curso-r.github.io/202104-r4ds-2/scripts/07-purrr.R>               |
 
 ### Parte prática
 
+<<<<<<< HEAD
 | script                     | link                                                                         |
 |:---------------------------|:-----------------------------------------------------------------------------|
 | 01-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
@@ -54,6 +59,15 @@ Fora do horário de aula ou monitoria:
 | 4-lubridate.R              | <https://curso-r.github.io/202104-r4ds-2/pratica/4-lubridate.R>              |
 | 5-purrr.R                  | <https://curso-r.github.io/202104-r4ds-2/pratica/5-purrr.R>                  |
 | 5-purrr.Rmd                | <https://curso-r.github.io/202104-r4ds-2/pratica/5-purrr.Rmd>                |
+=======
+| script                         | link                                                                             |
+|:-------------------------------|:---------------------------------------------------------------------------------|
+| 01-organizacao-projeto.Rmd     | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd>     |
+| 2-dplyr-tidyr.R                | <https://curso-r.github.io/202104-r4ds-2/pratica/2-dplyr-tidyr.R>                |
+| 3-stringr-tidyr.R              | <https://curso-r.github.io/202104-r4ds-2/pratica/3-stringr-tidyr.R>              |
+| 4-lubridate.R                  | <https://curso-r.github.io/202104-r4ds-2/pratica/4-lubridate.R>                  |
+| 99-exercicios-extras-stringr.R | <https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R> |
+>>>>>>> e4f9d7f80e0a1de9f17305d6c746c1e265d97c7b
 
 ## Lição de casa
 
