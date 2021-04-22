@@ -45,7 +45,7 @@ knitr::kable(
     link = paste0("https://curso-r.github.io/", main_repo, "/", slide)
   ) %>% 
     dplyr::filter(!stringr::str_detect(slide, "_files/")) %>% 
-    dplyr::slice(1:8)
+    dplyr::slice(1:9)
 )
 ```
 
@@ -61,7 +61,7 @@ knitr::kable(
     script = list.files(pasta, pattern = "R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:5)
+    dplyr::slice(1:7)
 )
 ```
 
@@ -74,7 +74,7 @@ knitr::kable(
     script = list.files(pasta, pattern = "Rmd$|R$"),
     link = paste0("https://curso-r.github.io/", turma, "/", pasta, script)
   ) %>% 
-    dplyr::slice(1:6)
+    dplyr::slice(1:7)
 )
 ```
 
