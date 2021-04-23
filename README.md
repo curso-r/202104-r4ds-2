@@ -53,15 +53,15 @@ Fora do horário de aula ou monitoria:
 
 ### Parte prática
 
-| script                         | link                                                                             |
-|:-------------------------------|:---------------------------------------------------------------------------------|
-| 01-organizacao-projeto.Rmd     | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd>     |
-| 02-dplyr-tidyr.R               | <https://curso-r.github.io/202104-r4ds-2/pratica/02-dplyr-tidyr.R>               |
-| 03-stringr-tidyr.R             | <https://curso-r.github.io/202104-r4ds-2/pratica/03-stringr-tidyr.R>             |
-| 04-lubridate.R                 | <https://curso-r.github.io/202104-r4ds-2/pratica/04-lubridate.R>                 |
-| 05-purrr.R                     | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.R>                     |
-| 05-purrr.Rmd                   | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.Rmd>                   |
-| 99-exercicios-extras-stringr.R | <https://curso-r.github.io/202104-r4ds-2/pratica/99-exercicios-extras-stringr.R> |
+| script                     | link                                                                         |
+|:---------------------------|:-----------------------------------------------------------------------------|
+| 01-organizacao-projeto.Rmd | <https://curso-r.github.io/202104-r4ds-2/pratica/01-organizacao-projeto.Rmd> |
+| 02-dplyr-tidyr.R           | <https://curso-r.github.io/202104-r4ds-2/pratica/02-dplyr-tidyr.R>           |
+| 03-stringr-tidyr.R         | <https://curso-r.github.io/202104-r4ds-2/pratica/03-stringr-tidyr.R>         |
+| 04-lubridate.R             | <https://curso-r.github.io/202104-r4ds-2/pratica/04-lubridate.R>             |
+| 05-purrr.R                 | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.R>                 |
+| 05-purrr.Rmd               | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.Rmd>               |
+| 06-nse.R                   | <https://curso-r.github.io/202104-r4ds-2/pratica/06-nse.R>                   |
 
 ## Lição de casa
 
