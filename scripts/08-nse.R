@@ -1,4 +1,5 @@
 library(dplyr)
+library(purrr)
 
 # Curly-curly -------------------------------------------------------------
 
@@ -80,6 +81,15 @@ summarise_mean <- function(df, nome, col) {
 # É criada uma coluna 'media' com a média de 'height'
 summarise_mean("media", "height")
 
+# Exemplo da aula
+mutate_menos_1 <- function(df, col_antiga, col_nova) {
+  mutate(df, {{col_nova}} := .data[[col_antiga]] - 1)
+}
+
+starwars %>%
+  select(height) %>%
+  mutate_menos_1("height", "heightinha")
+
 # Bônus: dupla interpolação
 summarise_mean <- function(col, prefix = "avg") {
   starwars %>%
@@ -88,3 +98,39 @@ summarise_mean <- function(col, prefix = "avg") {
 
 # Desafio: entender por que isso funciona!
 summarise_mean(height)
+
+# Demonstração em aula (sem precisar de tidy eval)
+summarise_tema <- function(df, cols) {
+  
+  # Aux
+  mean_rm <- partial(mean, ... = , na.rm = TRUE)
+  
+  df %>%
+    summarise(across(
+      .cols = all_of(cols),
+      .fns = mean_rm
+    ))
+}
+
+summarise_tema(starwars, c("height", "mass", "birth_year"))
+
+# Demonstração em aula (com tidy eval)
+summarise_tema <- function(df, cols) {
+  
+  # Aux
+  mean_rm <- partial(mean, ... = , na.rm = TRUE)
+  
+  # Tabelinha de prefixo
+  prefixo <- function(col) {
+    switch(col,
+      "height" = "corpo",
+      "mass" = "corpo",
+      "birth_year" = "idade"
+    )
+  }
+  
+  # Purrrtaria
+  map_dfc(cols, ~summarise(df, "{prefixo(.x)}_{.x}" := mean_rm(.data[[.x]])))
+}
+
+summarise_tema(starwars, c("height", "mass", "birth_year"))
