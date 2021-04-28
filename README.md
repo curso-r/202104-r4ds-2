@@ -62,6 +62,7 @@ Fora do horário de aula ou monitoria:
 | 05-purrr.R                 | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.R>                 |
 | 05-purrr.Rmd               | <https://curso-r.github.io/202104-r4ds-2/pratica/05-purrr.Rmd>               |
 | 06-nse.R                   | <https://curso-r.github.io/202104-r4ds-2/pratica/06-nse.R>                   |
+| 07-extra.R                 | <https://curso-r.github.io/202104-r4ds-2/pratica/07-extra.R>                 |
 
 ## Lição de casa
 
